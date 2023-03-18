@@ -16,7 +16,7 @@ To check whether if people are following social distancing precautions within a 
 <li> Open CV </li>
 <li> Yolo Coco Model</li>
 <li> SciPy </li>
-<li> DNN Module </li>
+<li> dnn Module </li>
 <li> Numpy </li>
 <li> Argparse </li>
 
@@ -41,6 +41,6 @@ To check whether if people are following social distancing precautions within a 
 ```bash
    $ python social_distancing_detector.py --input pedestrians.mp4 --output output.avi --display 1
 ```
-
+[Caution: The output video stream will not be accurate if you display as processing occurs]
 ## Demo Video :movie_camera:
 ![raw-vid](res/demo0.gif "Unprocessed video") ![processed-vid](res/demo1.gif "Processed video")
